@@ -8,7 +8,7 @@ RUN \
   rm -fr /app/* && \
   apt-get update && apt-get install -yqq wget git unzip && \
   rm -rf /var/lib/apt/lists/* && \
-  git clone https://github.com/lxj616/DVWA-WooYun
+  git clone https://github.com/lxj616/DVWA-WooYun && \
   rm -rf app/* && \
   cp -r /DVWA-WooYun/* /app && \
   rm -rf /DVWA-WooYun && \
